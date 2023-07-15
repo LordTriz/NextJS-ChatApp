@@ -19,7 +19,7 @@ export default function Auth() {
           secret,
         },
         {
-          headers: { "Private-key": "3ac4be31-2dce-4e14-bcdc-2dd438a19720" },
+          headers: { "Private-key": "cfb4b590-46d3-41dc-b230-a5d94e7da52a" },
         }
       )
       .then((r) => router.push("/chats"));
